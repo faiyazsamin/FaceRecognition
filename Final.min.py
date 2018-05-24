@@ -135,7 +135,7 @@ def detectFace(trainer_file):
     cv2.destroyAllWindows()
 
 
-trainData('training-data','test.yml')
+#trainData('training-data','test.yml')
 detectFace('test.yml')
 #showImage(predictStaticImage(cv2.imread("test-data/4.jpg"),'test3.yml'))
 #camToFile(20,'training-data/s7')
